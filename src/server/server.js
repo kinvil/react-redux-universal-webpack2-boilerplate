@@ -1,7 +1,6 @@
 import path from 'path'
 import express from 'express'
 import compression from 'compression'
-import httpProxy from 'http-proxy'
 import helmet from 'helmet'
 import serialize from 'serialize-javascript'
 import React from 'react'
@@ -57,7 +56,7 @@ function renderFullPage(html, preloadedState) {
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Dashboard</title>
+        <title>react-redux-universal-webpack2-boilerplate</title>
         <link rel="stylesheet" type="text/css" href=${assets.styles.bundle}>
     </head>
     <body>
