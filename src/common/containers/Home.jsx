@@ -23,7 +23,7 @@ class Home extends Component {
         const { users } = this.props
         return (
             <div>
-                <span>github user name: </span>
+                <span>github user name : </span>
                 <input ref="username" />
                 <button onClick={this.getUserProfile}>send</button>
                 <Profile data={users.profile[this.state.name]} />
